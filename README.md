@@ -14,7 +14,9 @@ The file "Main R Code.r":
 1. takes you from a folder of ".fcs" files to a dataframe containing all 12 patients,
 2. creates elbow plots for each of those 12 patients based on kmeans with k = 1:30,
 3. adds the manual gates to the dataframe,
-4. runs kmeans on each patient (without the manual gates) and evaluates the results with a confusion matrix, an Fmeasure, and NMI.
+4. runs kmeans on each patient (without the manual gates) and evaluates the results with a confusion matrix, an Fmeasure, and NMI,
+5. runs a multilayer perceptron neural net and repeats the evaluation process.
+
 
 The "Helpful Reading" folder contains research papers and guides that helped us along the way and will be cited in our final report.
 
